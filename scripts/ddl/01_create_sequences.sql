@@ -1,0 +1,112 @@
+-- =============================================================================
+-- Arquivo: 01_create_sequences.sql
+-- Descricao: Criacao das sequences para geracao de IDs automaticos
+-- Projeto: AFYA PBD26 - Sistema de Prontuario Eletronico do Paciente
+-- =============================================================================
+
+-- Sequence para tabela USUARIOS
+CREATE SEQUENCE SEQ_USUARIOS
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela PACIENTES
+CREATE SEQUENCE SEQ_PACIENTES
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela MEDICOS
+CREATE SEQUENCE SEQ_MEDICOS
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela ESPECIALIDADES
+CREATE SEQUENCE SEQ_ESPECIALIDADES
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela CONSULTAS
+CREATE SEQUENCE SEQ_CONSULTAS
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela DIAGNOSTICOS
+CREATE SEQUENCE SEQ_DIAGNOSTICOS
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela MEDICAMENTOS
+CREATE SEQUENCE SEQ_MEDICAMENTOS
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela PRESCRICOES
+CREATE SEQUENCE SEQ_PRESCRICOES
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela ITENS_PRESCRICAO
+CREATE SEQUENCE SEQ_ITENS_PRESCRICAO
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela EXAMES
+CREATE SEQUENCE SEQ_EXAMES
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela RESULTADOS_EXAMES
+CREATE SEQUENCE SEQ_RESULTADOS_EXAMES
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela INTERNACOES
+CREATE SEQUENCE SEQ_INTERNACOES
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela LEITOS
+CREATE SEQUENCE SEQ_LEITOS
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela ALERGIAS
+CREATE SEQUENCE SEQ_ALERGIAS
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequence para tabela LOGS_AUDITORIA
+CREATE SEQUENCE SEQ_LOGS_AUDITORIA
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+COMMIT;
